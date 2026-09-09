@@ -11,7 +11,7 @@
 math = 50          # int
 chem = 60          # int
 phy = 70           # int
-name = "Devika"     # str
+name = "Roshani"     # str
 pi = 3.14          # float
 
 print(type(math))
