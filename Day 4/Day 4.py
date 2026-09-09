@@ -396,7 +396,7 @@ print(s.capitalize())
 # 19. JOIN FUNCTION
 # ==========================================
 
-s = ("devika", "kaviraj", "bhoye")
+s = ("roshani", "vinay", "singh")
 
 name = "-".join(s)
 
@@ -418,13 +418,13 @@ print(s.find("programming"))
 # 21. STRING CHECKING FUNCTIONS
 # ==========================================
 
-print("devika1130".isalnum())
-print("devikabhoye".isalpha())
+print("roshani1130".isalnum())
+print("roshani".isalpha())
 print("1130".isdigit())
 print("bskjj".islower())
 print("".islower())
 print("DEVIKAn".isupper())
-print("My Name is Devika".istitle())
+print("My Name is roshani".istitle())
 print("".istitle())
 print("".isspace())
 print("Hello".startswith("He"))
@@ -435,7 +435,7 @@ print("Hello".endswith("lo"))
 # 22. STRING SLICING
 # ==========================================
 
-name = "devika"
+name = "roshani"
 
 print(name[0])
 print(name[1])
@@ -453,12 +453,12 @@ print(name[0:4:2])
 # 23. TRAVERSE STRING USING for LOOP
 # ==========================================
 
-for i in "devika":
+for i in "roshani":
     print(i, end=" ")
 
 print()
 
-for i in "devika":
+for i in "roshani":
     print(i)
 
 
@@ -466,7 +466,7 @@ for i in "devika":
 # 24. STRING INDEXING USING range()
 # ==========================================
 
-name = "devika"
+name = "roshani"
 
 for i in range(len(name)):
     print(name[i], end=" ")
@@ -486,7 +486,7 @@ for i in range(4, 0, -1):
 # 26. REVERSE STRING USING INDEX
 # ==========================================
 
-name = "devika"
+name = "roshani"
 
 for i in range(len(name) - 1, -1, -1):
     print(name[i], end=" ")
@@ -498,7 +498,7 @@ print()
 # 27. REMOVE DUPLICATE CHARACTERS
 # ==========================================
 
-name = "devikakavirajbhoye"
+name = "roshanisingh"
 
 newname = ""
 
