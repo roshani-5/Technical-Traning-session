@@ -154,7 +154,7 @@ print("\n" + "=" * 50)
 print("REMOVE SPECIAL CHARACTER")
 print("=" * 50)
 
-name = "devika*is*a*good*programmer"
+name = "Roshani*is*a*good*programmer"
 
 newname = ""
 
